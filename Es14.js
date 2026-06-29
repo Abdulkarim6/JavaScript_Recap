@@ -41,5 +41,5 @@ const nameBasedSort = employees.toSorted(function(a,b){
     // Or update version
     return a.name.localeCompare(b.name);
 
-})
+});
 console.log(nameBasedSort);
